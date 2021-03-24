@@ -1,13 +1,19 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     
 }
 
 #submit{
-    background-color: #fdaf62;
-    color: black;
+        background-color: #fdaf62;
+        color: black;
+        border: solid;
+        border-width: 1px;
+        padding: 5px 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
 }
 
 button{
@@ -15,12 +21,16 @@ button{
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:#d8d7ff;
     border: solid;
-    padding-left: 15px;
     width: 30%;
-    height: 60%;
+    height:20%;
     }
 
 hr{
-    color: black;}
+    color: black;
+}

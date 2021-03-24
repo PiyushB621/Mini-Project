@@ -4,7 +4,7 @@ $(document).ready(function() {
         var rowCount = $('#myTable tr').length;
 
         if (rowCount == 0) {
-            var th = "<tr><th>Name</th><th>Number</th><th>Email</th></tr>";
+            var th = "<tr><th>Name</th><th>Mob No.</th><th>Email ID</th></tr>";
             $("table").append(th);
         }
 
