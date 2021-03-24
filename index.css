@@ -3,9 +3,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px; 
+    margin-left: 400px;}
 }
 
 #submit{
     background-color: #ffb76f;
     color: black;
 }
+
+form{
+background-color:#d8d7ff;
+    border: solid;
+    padding-left: 15px;
+    width: 30%;
+    height: 60%;
+    }
+
+hr{
+    color: black;}
